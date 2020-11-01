@@ -147,7 +147,7 @@ header{
     height: 500px;
     position: relative;
     margin-top: 80px;
-    background-image: url(img/userone.jpg);
+    background-image: url(img/fecha.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -158,7 +158,7 @@ header{
     height: 500px;
     position: relative;
     margin-top: 80px;
-    background-image: url(img/userone.jpg);
+    background-image: url(img/familia.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -299,6 +299,7 @@ article img{
     box-shadow: 0 0 20px -20px black;
     overflow: hidden;
     margin-left: 40px;
+    
 
 }
 
@@ -306,7 +307,10 @@ article img{
     width: 100%;
 }
 
-.container-aside aside h2,
+.container-aside aside h2{
+    margin-top: 20px;
+    padding: 0px 20px;
+}
 .container-aside aside p{
     margin-top: 20px;
     padding: 0px 20px;
@@ -333,7 +337,7 @@ article img{
 }
 
 #ctn-icon-search i:hover{
-    color: lightseagreen;
+    color: coral;
 }
 
 #ctn-bars-search{

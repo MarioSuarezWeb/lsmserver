@@ -27,6 +27,7 @@ header{
     display: flex;
     justify-content: space-between;
     position: relative;
+    
 }
 
 .logo{
@@ -34,6 +35,13 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    
+}
+.logo a{
+    text-decoration: none;
+}
+.logo h1{
+    color: black;
 }
 
 .logo h1 b{
@@ -99,7 +107,7 @@ header{
     right: 20px;
     top: 16px;
     font-size: 20px;
-    background: rgb(235, 235, 235);
+    background: rgb(248, 248, 248);
     border-radius: 100%;
     color: coral;
     display: flex;
@@ -111,7 +119,7 @@ header{
 }
 
 #icon-menu:hover{
-    background: gray;
+    background: rgb(207, 207, 207);
     opacity: 0.8;
 }
 
@@ -147,7 +155,7 @@ header{
     height: 500px;
     position: relative;
     margin-top: 80px;
-    background-image: url(img/fecha.jpg);
+    background-image: url(img/frases.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

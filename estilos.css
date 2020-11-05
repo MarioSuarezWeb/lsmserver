@@ -190,27 +190,7 @@ header{
     position: absolute;
 }
 
-.container-cover-usertwof{
-    width: 100%;
-    height: 500px;
-    position: relative;
-    margin-top: 80px;
-    background-image: url(img/usuertwo.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
 
-.container-cover-usertwofam{
-    width: 100%;
-    height: 500px;
-    position: relative;
-    margin-top: 80px;
-    background-image: url(img/usuertwo.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
 .container-cover:before{
     content: '';
     width: 100%;

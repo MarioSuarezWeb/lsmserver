@@ -144,7 +144,7 @@ header{
     height: 500px;
     position: relative;
     margin-top: 80px;
-    background-image: url(img/userone.jpg);
+    background-image: url(img/saludos.svg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -155,7 +155,7 @@ header{
     height: 500px;
     position: relative;
     margin-top: 80px;
-    background-image: url(img/frases.jpg);
+    background-image: url(img/frases.svg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -166,7 +166,7 @@ header{
     height: 500px;
     position: relative;
     margin-top: 80px;
-    background-image: url(img/familia.jpg);
+    background-image: url(img/familia.svg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

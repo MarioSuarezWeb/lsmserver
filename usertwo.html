@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="https://kit.fontawesome.com/3e8bcaee62.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="estilos.css">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scalable=1.0">
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      />
+    <title>Señas - texto</title>
+</head>
+
+<body>
+    <!--Header menú-->
+    <header>
+
+        <div class="header-content">
+            <div class="logo">
+                <a href="index.html"><h1>LSM <b>APP</b></h1></a>
+            </div>
+
+            <div class="menu" id="show-menu">
+                <nav>
+
+
+                    <ul>
+                        <li>
+                            <a href="index.html" ><i
+                                    class="fas fa-home"></i>Inicio</a>
+                        </li>
+                        <li>
+                            <a href="userone.html" class=""><i class="fas fa-font"></i>Texto-Seña</a>
+                        </li>
+                        </li>
+                        <li>
+                            <a href="usertwo.html" class="menu-selected text-menu-selected"><i class="fas fa-american-sign-language-interpreting"></i>Seña-Texto</a>
+                        </li>
+                        <li>
+                            <a
+                                href="https://drive.google.com/file/d/1Jpem8WUEnStzIeRM0BM46CZMcZW1NFQS/view?usp=sharing"><i
+                                    class="fab fa-android"></i>App para Android</a>
+                        </li>
+                        </li>
+                        
+                    <li>
+                        <a href="https://drive.google.com/file/d/1Jpem8WUEnStzIeRM0BM46CZMcZW1NFQS/view?usp=sharing"><i class="fab fa-apple"></i>App para IOS</a>
+                    </li> 
+                    
+
+
+
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div id="icon-menu">
+            <img src="img/menu.svg" class="menu-icon" alt="">
+        </div>
+    </header>
+
+    <div id="ctn-bars-search">
+
+
+    </div>
+
+
+    <!--Portada-->
+    <div class="container-all" id="move-content">
+        <div class="container-cover-usertwo">
+            <div class="container-info-cover">
+                <!--<h1>Saludos</h1>-->
+                <video onloadedmetadata="this.muted=true" autoplay loop>
+                    <source src="">
+                    </video>
+            </div>
+        </div>
+        
+        <div class="container-all" id="move-content">
+            <div class="container-cover-usertwo">
+                <div class="container-info-cover">
+                    <!--<h1>Frases</h1>-->
+                    <video onloadedmetadata="this.muted=true" autoplay loop>
+                        <source src="Frases/frases.mp4">
+                        </video>
+                </div>
+            </div>
+
+            <div class="container-all" id="move-content">
+                <div class="container-cover-usertwo">
+                    <div class="container-info-cover">
+                       <!--<h1>Familia</h1>--> 
+                        <video onloadedmetadata="this.muted=true" autoplay loop>
+                            <source src="">
+                            </video>
+                    </div>
+                </div>
+
+
+
+
+        <!--<div class="container-post">
+            <div class="posts">
+        <div class="post">
+            <div class="ctn-vid">
+                <video src="saludos/Hola.mp4" controls=""></video>
+            </div>
+            <h2>Texto divisor</h2>
+            <ul>
+                <li>
+                    nav 1
+                </li>
+                <li>
+                    nav 2
+                </li>
+            </ul>
+            <a href="#">Funcion</a>
+        </div>
+    </div>
+</div>-->
+    <!--Footer-->
+
+        <div class="container-footer">
+            <footer>
+                <div class="logo-footer">
+                    <h1>LSM <b>APP</b></h1>
+                </div>
+                <div class="informacion-footer">
+                    <p>
+                        Desarrollado con HTML-CSS-JS
+                    </p>
+                </div>
+                <hr>
+                <h4>2020. Hecho con ❤ por LSM</h4>
+            </footer>
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-analytics.js"></script>
+
+    <script>
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        var firebaseConfig = {
+            apiKey: "AIzaSyCtbGDcTccjYu-vwYb93fHf50-5VjK-AkE",
+            authDomain: "lsmappweb.firebaseapp.com",
+            databaseURL: "https://lsmappweb.firebaseio.com",
+            projectId: "lsmappweb",
+            storageBucket: "lsmappweb.appspot.com",
+            messagingSenderId: "174175832795",
+            appId: "1:174175832795:web:d1af678eda45428c441afe",
+            measurementId: "G-VQ3XZ70TDC"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+    </script>
+</body>
+
+</html>

@@ -96,7 +96,7 @@ header{
     color: #2E9AFE;
 }
 
-.menu nav ul li a i{
+.menu nav ul li a img{
     display: none;
 }
 
@@ -183,7 +183,7 @@ header{
     height: 300px;
     position: relative;
     margin-top: 80px;
-    z-index: 1;
+    z-index: 2;
     background-position: center;
 }
 .container-cover-usertwo video{
@@ -192,6 +192,9 @@ header{
     top: -0.5px;
     right: 0;
     position: absolute;
+    z-index: 1;
+    
+
 }
 
 .container-cover-usertwof{
@@ -255,7 +258,7 @@ header{
     background: #2e99fe9f;
     position: absolute ;
     top: 0;
-    z-index: 2;
+    z-index: 1;
 }
 
 
@@ -269,7 +272,7 @@ header{
     display: flex;
     flex-direction: column;
     position: relative;
-    z-index: 1;
+    z-index: 2;
 }
 
 .container-info-cover h1{
@@ -627,7 +630,7 @@ article img{
         margin-top: 40px;
     }
 
-    .menu nav ul li a i{
+    .menu nav ul li a img{
         width: 20px;
         display: inline-block;
         margin-right: 10px;

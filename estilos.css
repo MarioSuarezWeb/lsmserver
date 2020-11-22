@@ -298,6 +298,11 @@ header{
     display: flex;
     justify-content: center;
 }
+.container-content a{
+    text-decoration: none;
+    color: #3f3f3f;
+    font-size: 25px;
+}
 article{
     width: 100%;
     padding: 20px;
@@ -376,6 +381,7 @@ article img{
 #ctn-icon-search img{
     width: 28px;
     height: 28px;
+    opacity: 50%;
 }
 
 #ctn-icon-search i{
@@ -651,6 +657,11 @@ article img{
     }
     #icon.menu{
         right: 20px;
+    }
+    #ctn-icon-search img{
+        width: 28px;
+        height: 28px;
+        opacity: 100%;
     }
     .container-aside{
         display: none;
